@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    font-weight: 800;
+    font-size: 18px;
+    transition: all 4s ease-in-out;
+}
+a:hover{
+    transform: translateY(-5px);
+    color: gold;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+h1{
+   font-weight: bold !important;
+}
+.href{
+    text-decoration: underline;
+    color: white;
+    letter-spacing: 2px;
+}
+#header {
+    color: white;
+    background: linear-gradient(rgba(15, 14, 14,0.99),rgba(20, 19, 19,0.35)),url("..//IMG/A\ lady\ smiling.jfif");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+#header p{
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+#header h4::after{
+    content: '*';
+    font-weight: bold;
+}
+.btn-apply{
+    padding: 15px 28px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    background: rgb(1, 41, 37);font-weight: bold;
+}
+.comp h2{
+    color: rgb(35, 35, 134);
+}
+.comp p{
+    color: black;
+    line-height : 1.90em;
+    font-weight: 600;
+}
+.img_img{
+   padding-top: 2em;
+}
+.btn-apply_today{
+    padding: 15px 30px;
+    width: 200px;
+    background: rgb(1, 41, 37);
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    /* margin-right: auto; */
+    margin-left: auto;
+}
+.image_bulb{
+    width: 80px;
+    height: 80px;
+}
+.bulb{
+    cursor: pointer;
+}
+.bulb:hover{
+    background:wheat;
+    height: 210px;
+    padding: 20px;
+    box-shadow:  0px 1px 1px 3px rgb(218, 203, 203);
+    border-radius: 10px;
+}
+#alx{
+    background-color: antiquewhite;
+}
+.style_require ul{
+    list-style: disc;
+    padding: 0;
+    line-height: 1.99em;
+}
+.style_require{
+    border-radius: 12px;
+    border: 2px solid antiquewhite;
+}
+.style_require h5{
+    font-weight: bold;
+    color: rgb(9, 9, 41);
+}
+#alx h3
+{
+    color:rgb(9, 9, 41);
+    font-weight: bold;
+}
+.jumi{
+width: 50px;
+height: 30px;
+}
+.jum{
+    width: 50px;
+    height: 30px;
+}
+.jume{
+    width: 50px;
+height: 30px;
+}
+.btn-outlin{
+   padding: 13px 27px;
+   background:rgb(35, 35, 134);
+   color: white;
+   text-align: center;
+   border: 0;
+   font-weight: 700;
+}
+.btn-top{
+    background: rgb(29, 27, 27);
+    float: right;
+    /* position: sticky; */
+    color: white;
+    padding: 5px 20px;
+    margin-right: 18px;
+}
+.btn-top:hover{
+    background: orangered;
+    transition: all 1s ease-in-out;
+}
+.fa-arrow-up-from-dotted-line{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 576px){
+    .tec{
+        width: 120px;
+        text-align: center;
+    }
+}
